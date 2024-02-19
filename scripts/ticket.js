@@ -62,11 +62,8 @@ function applyCoupon() {
   //next button
 
 function showSuccessSection() {
-    // Get the reference to the hidden section
-    var successSection = document.getElementById("success-Btn");
-    
-    // Show the hidden section by removing the "hidden" class
-    successSection.classList.remove("hidden");
+  var successSection = document.getElementById("success-Btn");
+  successSection.classList.remove("hidden");
 }
 
 
