@@ -1,10 +1,14 @@
- function busInformation() {
-    const busInformationSection = document.getElementById('ticket-info');
-    busInformationSection.scrollIntoView({ behavior: 'smooth' });
+function BuyTicket() {
+  document.getElementById('ticket-info').scrollIntoView({ behavior: 'smooth' });
+}
+ //next button
+ 
+function showSuccessSection() {
+  var successSection = document.getElementById("success-Btn");
+  successSection.classList.remove("hidden");
 }
 
-  const buyTicketsBtn = document.getElementById('buy-ticket');
-  buyTicketsBtn.addEventListener('click', busInformation);
+
 
 
 //color select and limit 4 seats
@@ -59,12 +63,10 @@ function applyCoupon() {
     alert("Invalid coupon code. Please enter a valid code.");
    }
 }
-  //next button
+ 
 
-function showSuccessSection() {
-  var successSection = document.getElementById("success-Btn");
-  successSection.classList.remove("hidden");
-}
+
+
 
 
 
